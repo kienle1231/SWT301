@@ -1,0 +1,5 @@
+email,password,expected
+tr1@example.com,123456,success
+invalid@email.com,wrongpassword,error
+user@example.com,wrongpassword,error
+invalid@email.com,password123,error
